@@ -1,0 +1,103 @@
+body { 
+    background-size: cover;
+    padding: 10px;
+  }
+  
+  .head {
+    
+    font-size: 38px;
+    text-align: left;
+    padding: 20px;
+    color: black;
+  }
+  
+  .home-list {
+    margin: 20px auto;
+    width: 800px;
+    text-align: center;
+    background: rgba(240, 239, 239, 0.9);
+    border-radius: 45px;
+  }
+  
+  .home-list table{
+    width: 700px;
+    margin: 10px auto;
+  }
+  
+  #my-btn {
+    font-size: 12px;
+  }
+  
+  th,
+  td {
+    padding: 20px;
+  }
+  
+  
+  #search-bar {
+    width: 200px;
+    margin: 10px auto;
+  }
+  
+  #create-user-btn {
+    position: relative;
+    left: 100px;
+    top: 5px;
+    font-size: 20px;
+  }
+  
+  .wrapper {
+    background-color: transparent;
+  }
+  
+  form {
+    width: 90%;
+    margin: 20px auto;
+  }
+  
+  form div {
+    margin: 30px auto;
+  }
+  
+  .create-user {
+    margin: 20px auto;
+    width: 550px;
+    height: 850px;
+    border-radius: 15px;
+    background: rgba(244, 247, 248, 0.9);
+  }
+  
+  .create-user input,
+  .create-user select {
+    background: rgb(232, 238, 239);
+  }
+  
+  .create-btn {
+    position: relative;
+    left: 180px;
+  }
+  
+  #readonly-input {
+    background: darkgray;
+    color: white;
+  }
+  
+  th:hover {
+    cursor: pointer;
+  }
+  
+  .pagination {
+    justify-content: center;
+  }
+  
+  .form-page {
+    position: relative;
+    width: 200px;
+    left: 530px;
+  }
+  
+  .form-page select{
+    display: inline-block;
+    width: 50px;
+    margin-left: 10px;
+  }
